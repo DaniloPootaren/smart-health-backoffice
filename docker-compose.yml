@@ -8,8 +8,6 @@ services:
     depends_on:
       - "db"
     restart: always
-    env_file:
-      - .env
     networks:
       - app-network
     ports:

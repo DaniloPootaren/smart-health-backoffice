@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_checklist_checklist_ages",
+  "info": {
+    "displayName": "checklist_age",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "age": {
+      "type": "enumeration",
+      "enum": [
+        "BABY",
+        "CHILDREN",
+        "TEENAGER",
+        "YOUNG_ADULT",
+        "ADULT",
+        "ELDERLY",
+        "ANY"
+      ],
+      "default": "ANY",
+      "required": true
+    }
+  }
+}

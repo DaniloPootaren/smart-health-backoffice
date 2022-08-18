@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_checklist_question_questions",
+  "info": {
+    "displayName": "questions",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "required": true
+    },
+    "yes_score": {
+      "type": "integer"
+    },
+    "no_score": {
+      "type": "integer"
+    }
+  }
+}

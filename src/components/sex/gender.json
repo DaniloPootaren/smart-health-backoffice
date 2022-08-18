@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sex_genders",
+  "info": {
+    "displayName": "gender",
+    "icon": "balance-scale-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "MALE",
+        "FEMALE",
+        "BOTH"
+      ],
+      "required": true,
+      "default": "BOTH"
+    }
+  }
+}
